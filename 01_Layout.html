@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: gray;
+        font-family: "Courier New", Courier, monospace;
+      }
+      .box {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+      }
+      .header {
+        width: 90%;
+        background-color: skyblue;
+        height: 70px;
+        padding: 30px;
+        margin: 5px 0;
+        border: 1px solid #000;
+      }
+      .main {
+        width: 90%;
+        height: 15px;
+        padding: 20px;
+        margin: 10px 0;
+        background-color: orange;
+        border: 1px solid #000;
+      }
+      .parent {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        margin-top: 10px;
+        /* overflow: hidden; */
+      }
+      .nav {
+        width: 55%;
+        height: 250px;
+        padding: 40px;
+        border: 1px solid #000;
+        background-color: pink;
+      }
+      .aside {
+        width: 34%;
+        height: 250px;
+        padding: 40px;
+        margin-left: 12px;
+        background-color: lightblue;
+        border: 1px solid #000;
+      }
+      .parent1 {
+        display: flex;
+        width: 70%;
+        height: 220px;
+        margin-right: 10px;
+      }
+      .items {
+        width: 60%;
+        padding: 100px;
+        margin: 6px;
+        border: 1px solid #000;
+        align-items: center;
+      }
+      .box1 {
+        background-color: crimson;
+      }
+      .box2 {
+        background-color: yellow;
+      }
+      .box3 {
+        background-color: tomato;
+      }
+      .box4 {
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="header">
+        <h2>Basic Layout</h2>
+      </div>
+      <div class="main">Main</div>
+      <div class="parent">
+        <div class="nav">Nav</div>
+        <div class="aside">Aside</div>
+      </div>
+      <div class="parent1">
+        <div class="items box1">Box1</div>
+        <div class="items box2">Box2</div>
+        <div class="items box3">Box3</div>
+        <div class="items box4">Box4</div>
+      </div>
+    </div>
+  </body>
+</html>
